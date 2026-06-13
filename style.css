@@ -1,0 +1,272 @@
+/* Global Unified CSS for All Pages */
+body {
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+        .header {
+            background-color: #888888;
+            color: black;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 80px;
+        }
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-top: 0;
+            color:#000000;
+            margin-top:0;
+        }
+
+/* Navigation Bar */
+        .nav {
+            background-color: #add8e6;
+            padding: 8px 15px;
+            font-size: 28px;
+        }
+
+        .nav a {
+            color: blue;
+            text-decoration: underline;
+            margin-right: 10px;
+        }
+
+        .nav a:hover {
+            color: darkblue;
+        }
+
+/* Main Container (Two Column Layout) */
+        .container {
+            display: flex;
+            width: 100%;
+        }
+
+/* Left Login Column */
+        .login-column {
+            width: 35%;
+            background-color: #d3d3d3;
+            padding: 30px;
+            box-sizing: border-box;
+            border-right: 1px dashed #999;
+        }
+
+/* Right Register Column */
+        .register-column {
+            width: 65%;
+            background-color: #f5f5dc;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+/* text */
+        .text{
+            font-size: 25px;
+            font-weight: bolder;
+        }
+        .text_low{
+            font-size: 25px;
+        }
+
+/* Form General Style */
+        form {
+            width: 100%;
+        }
+
+        form input[type="text"],
+        form input[type="password"],
+        form input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 20px 0;
+            font-size: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f5f5dc;
+        }
+
+/* Buttons */
+        button {
+            padding: 10px 20px;
+            font-size: 20px;
+            border: 1px solid #999;
+            border-radius: 6px;
+            background-color: #eee;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }
+
+        .login-column button {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .register-column .button-group {
+            text-align: center;
+        }
+
+        .btn-submit, .btn-reset {
+            padding: 8px 16px;
+            font-size: 1.1em;
+            margin: 0 5px;
+        }
+        .confirm-btn{
+            display: block;
+            margin: 20px auto;
+        }
+        .back-btn{
+            font-size: 25px; 
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+
+
+/*table*/
+        .table {
+            width: 100%;
+            margin-right: 30px;
+            border: 5px solid#000;
+        }
+        .table td {
+            text-align: center;
+            padding: 10px 0;
+            border: 5px solid#000
+        }
+
+/*product*/
+        .product-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .product{
+            font-size: 1.3em;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+        .products-column {
+            background-color: #f5f5dc;
+            padding: 10px;
+        }
+
+/* quatity */
+        .quantity-label {
+            font-size: 1.2em;
+            vertical-align: middle; 
+        }
+
+        .quantity-input {
+            width: 60px;
+            padding: 5px;
+            font-size: 1.1em;
+            margin-left: 5px;
+            display: inline-block;
+            vertical-align: middle;
+            box-sizing: border-box;
+            min-width: 60px;
+            max-width: 60px
+        }
+
+/*profile and shopping cart*/
+        body{background:#f5f5dc;}
+        .container{
+            width:80%;
+            margin:30px auto;
+            display:flex;
+            gap:30px;
+        }
+
+
+        .info-item{
+            margin:15px 0;
+            font-size:16px;
+        }
+        .info-item label{
+            font-weight:bold;
+            color:#000000;
+        }
+        .profile-card{
+            width:30%;
+        }
+
+/* cart */
+        .cart-table{
+            width:80%;
+            border-collapse:collapse;
+            margin: 20px auto;
+        }
+        .cart-table th,.cart-table td{
+            padding:12px;
+            text-align:left;
+            border:3px solid #0c0000;
+
+            padding: 0;
+        }
+        .cart-card{
+            width:70%;
+        }
+        .cart-image {
+            max-width: 170px;
+            height: auto;
+            margin: 3px;
+        }
+        .profile-card,.cart-card{
+            background:#fff;
+            padding:25px;
+            border-radius:8px;
+            box-shadow:0 2px 8px rgba(0,0,0,0.1);
+        }
+
+
+/* reciept */
+        .receipt-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .receipt-header {
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .receipt-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .receipt-table th, .receipt-table td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .receipt-total {
+            text-align: right;
+            font-weight: bold;
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+        .receipt-info {
+            margin-bottom: 15px;
+        }
